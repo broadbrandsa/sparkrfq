@@ -47,7 +47,7 @@ export function PartnershipPhilosophySection() {
                 className="text-base leading-relaxed mb-5"
                 style={{ color: "rgba(43,4,48,0.6)", fontFamily: "var(--font-body)", fontSize: "1.125rem" }}
               >
-                The success of the Enrolment Growth Engine depends on a close partnership between SPARK Schools and the marketing team. Rather than operating as a traditional agency relationship, the model is designed to function as a shared growth partnership focused on a single outcome: increasing confirmed enrolments.
+                The success of the Enrolment Growth Engine depends on a close partnership between SPARK Schools and the marketing team. As an extension of SPARK's marketing team, the model is designed to function as a shared growth partnership focused on a single outcome: increasing confirmed enrolments.
               </p>
               <p
                 className="text-base leading-relaxed"

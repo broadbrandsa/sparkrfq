@@ -37,7 +37,7 @@ export function LeadCaptureSection() {
             className="text-base leading-relaxed mb-4 max-w-xl"
             style={{ color: "rgba(43,4,48,0.6)", fontFamily: "var(--font-body)", fontSize: "1.125rem" }}
           >
-            Our review of the current system highlighted an important opportunity to improve
+            Through our ongoing work together, we have identified an important opportunity to improve
             lead quality at the point of capture.
           </p>
           <p

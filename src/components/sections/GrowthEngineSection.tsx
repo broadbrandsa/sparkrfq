@@ -68,7 +68,7 @@ export function GrowthEngineSection() {
                 className="text-base leading-relaxed"
                 style={{ color: "rgba(43,4,48,0.6)", fontFamily: "var(--font-body)", fontSize: "1.125rem" }}
               >
-                To operationalise this shift, we propose a structured system that connects marketing
+                To operationalise this next stage, we are evolving the current system into a structured framework that connects marketing
                 activity, parent engagement and enrolment outcomes into a single measurable engine.
                 Six interconnected stages — from first impression to confirmed learner.
               </p>

@@ -48,7 +48,7 @@ export function WebsiteSection() {
               className="text-base leading-relaxed mb-4"
               style={{ color: "rgba(43,4,48,0.6)", fontFamily: "var(--font-body)", fontSize: "1.125rem" }}
             >
-              The current SPARK website, built on Webflow, has supported campaign launches and
+              The current SPARK website, which we built and continue to manage on Webflow, has supported campaign launches and
               marketing activity effectively. However, as the enrolment ecosystem evolves, the
               limitations of Webflow&apos;s architecture begin to restrict the flexibility required
               for a fully integrated marketing and admissions platform.

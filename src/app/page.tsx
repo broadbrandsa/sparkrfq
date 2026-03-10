@@ -10,7 +10,6 @@ import { MeasurementSection } from "@/components/sections/MeasurementSection";
 import { CRMSection } from "@/components/sections/CRMSection";
 import { TechnologyStackSection } from "@/components/sections/TechnologyStackSection";
 import { NextGenPlatformsSection } from "@/components/sections/NextGenPlatformsSection";
-import { LeadCaptureSection } from "@/components/sections/LeadCaptureSection";
 import { WebsiteSection } from "@/components/sections/WebsiteSection";
 import { SeasonalStrategySection } from "@/components/sections/SeasonalStrategySection";
 import { UnifiedGrowthSection } from "@/components/sections/UnifiedGrowthSection";
@@ -56,10 +55,7 @@ export default function Home() {
         {/* 10. Next-Generation Marketing Platforms */}
         <NextGenPlatformsSection />
 
-        {/* 11. Lead Capture Optimisation */}
-        <LeadCaptureSection />
-
-        {/* 12. Website Management */}
+        {/* 11. Website Management */}
         <WebsiteSection />
 
         {/* 12. Marketing Strategy by Enrolment Season */}

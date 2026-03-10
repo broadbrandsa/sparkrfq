@@ -5,7 +5,7 @@ import { ParallaxImage } from "@/components/ParallaxImage";
 const stats = [
   { value: "2026", label: "Proposal Year" },
   { value: "Broadbrand", label: "Presenting Agency" },
-  { value: "DSG Group", label: "Parent Company" },
+  { value: "DSG", label: "Parent Company" },
   { value: "Level 2", label: "B-BBEE Status" },
   { value: "Full Service", label: "Digital Capability" },
   { value: "SA-First", label: "Market Approach" },
@@ -106,8 +106,8 @@ export function Hero() {
               fontSize: "1.125rem",
             }}
           >
-            A strategic marketing proposal from Broadbrand — built for South Africa&apos;s
-            most ambitious education brand.
+            A strategic growth proposal from Broadbrand — SPARK&apos;s current marketing
+            partner — focused on the next stage of enrolment growth.
           </p>
 
           <div className="flex flex-wrap gap-4">

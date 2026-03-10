@@ -59,13 +59,13 @@ export function SuccessSection() {
                 className="text-base leading-relaxed"
                 style={{ color: "rgba(43,4,48,0.6)", fontFamily: "var(--font-body)", fontSize: "1.125rem" }}
               >
-                The purpose of the Enrolment Growth Engine is not simply to generate more leads, but to create a predictable system that converts marketing investment into confirmed learner enrolments.
+                The next stage of the Enrolment Growth Engine is not simply to generate more leads, but to build a predictable system that converts marketing investment into confirmed learner enrolments.
               </p>
               <p
                 className="text-base leading-relaxed mt-4"
                 style={{ color: "rgba(43,4,48,0.6)", fontFamily: "var(--font-body)", fontSize: "1.125rem" }}
               >
-                When the system is fully operational, SPARK benefits from four measurable improvements.
+                As we continue developing the system together, SPARK benefits from four measurable improvements.
               </p>
             </div>
           </div>

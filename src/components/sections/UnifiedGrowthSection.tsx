@@ -80,7 +80,7 @@ export function UnifiedGrowthSection() {
               className="text-base leading-relaxed"
               style={{ color: "rgba(43,4,48,0.6)", fontFamily: "var(--font-body)", fontSize: "1.125rem" }}
             >
-              SPARK&apos;s current marketing ecosystem already generates significant demand and awareness
+              SPARK&apos;s current marketing ecosystem — which we have been building together — already generates significant demand and awareness
               across digital channels. However, much of the day-to-day activity is driven by lead
               generation targets rather than a unified marketing strategy — which can lead to different
               channels operating independently rather than as a coordinated system.
@@ -316,8 +316,8 @@ export function UnifiedGrowthSection() {
                 className="text-sm leading-relaxed"
                 style={{ color: "rgba(43,4,48,0.6)", fontFamily: "var(--font-body)" }}
               >
-                By aligning marketing activity around a single enrolment growth strategy, SPARK can
-                transform its marketing ecosystem into a coordinated system where every channel
+                By continuing to align marketing activity around a single enrolment growth strategy, we can
+                transform SPARK&apos;s marketing ecosystem into a coordinated system where every channel
                 contributes to a shared objective — planned around three phases of the enrolment cycle.
               </p>
             </div>

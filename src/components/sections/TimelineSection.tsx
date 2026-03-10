@@ -3,8 +3,8 @@ import { FadeIn } from "@/components/FadeIn";
 const phases = [
   {
     num: "01",
-    label: "Month 1",
-    title: "Foundation & Audit",
+    label: "10 Days",
+    title: "Foundation & System Alignment",
     desc: "Auditing the current marketing ecosystem, reviewing lead flow processes and establishing improved reporting infrastructure.",
     tasks: [
       "Marketing ecosystem audit",
@@ -13,11 +13,11 @@ const phases = [
       "CRM requirements evaluation",
     ],
     accent: "#1f49c9",
-    status: "Kickoff",
+    status: "Optimisation Kickoff",
   },
   {
     num: "02",
-    label: "Month 2–3",
+    label: "20 Days",
     title: "Integration & Build",
     desc: "Implementing CRM integration and identifying opportunities for deeper marketing platform integration across all touchpoints.",
     tasks: [
@@ -96,9 +96,8 @@ export function TimelineSection() {
                 className="text-base leading-relaxed"
                 style={{ color: "rgba(43,4,48,0.6)", fontFamily: "var(--font-body)", fontSize: "1.125rem" }}
               >
-                To move from the current marketing system to the Enrolment Growth Engine, the
-                partnership begins with a structured onboarding and audit phase before moving
-                into integration and campaign execution.
+                To continue evolving the current marketing system into the full Enrolment Growth Engine, the next phase begins with a structured optimisation and integration phase before moving
+                into full campaign execution.
               </p>
             </div>
           </div>

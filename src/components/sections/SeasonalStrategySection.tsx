@@ -113,7 +113,7 @@ export function SeasonalStrategySection() {
                 className="text-base leading-relaxed"
                 style={{ color: "rgba(255,255,255,0.6)", fontFamily: "var(--font-body)", fontSize: "1.125rem" }}
               >
-                Marketing strategy should align with the natural enrolment cycle of the
+                Our marketing strategy continues to align with the natural enrolment cycle of the
                 academic year. Each phase requires a different strategic focus — from
                 brand building to maximum conversion.
               </p>
