@@ -45,14 +45,6 @@ const phases = [
   },
 ];
 
-const milestones = [
-  { label: "Week 1–2", event: "Onboarding & access", dot: "#1f49c9" },
-  { label: "Week 3–4", event: "Audit complete", dot: "#1f49c9" },
-  { label: "Month 2", event: "Integration live", dot: "#801078" },
-  { label: "Month 3", event: "Full system active", dot: "#ff4800" },
-  { label: "Pre-June", event: "Pre-enrolment readiness", dot: "#ff4800" },
-  { label: "October", event: "Peak season launch", dot: "#ff4800" },
-];
 
 export function TimelineSection() {
   return (
@@ -104,7 +96,7 @@ export function TimelineSection() {
         </FadeIn>
 
         {/* Phase cards */}
-        <div className="grid md:grid-cols-3 gap-6 mb-16">
+        <div className="grid md:grid-cols-3 gap-6">
           {phases.map((phase, i) => (
             <FadeIn key={phase.num} delay={i * 100}>
               <div
@@ -201,86 +193,6 @@ export function TimelineSection() {
           ))}
         </div>
 
-        {/* Milestone timeline strip */}
-        <FadeIn delay={320}>
-          <div
-            className="rounded-2xl p-8"
-            style={{
-              background: "var(--spark-purple)",
-              border: "1px solid rgba(255,255,255,0.06)",
-            }}
-          >
-            <p
-              className="text-xs font-bold tracking-[0.18em] uppercase mb-8"
-              style={{ color: "rgba(255,255,255,0.35)", fontFamily: "var(--font-body)" }}
-            >
-              Key Milestones
-            </p>
-
-            {/* Desktop timeline */}
-            <div className="hidden md:flex items-start gap-0">
-              {milestones.map((m, i) => (
-                <div key={i} className="flex-1 relative">
-                  {/* Connector line */}
-                  {i < milestones.length - 1 && (
-                    <div
-                      className="absolute top-2 left-1/2 right-0 h-px"
-                      style={{ background: "rgba(255,255,255,0.1)" }}
-                    />
-                  )}
-                  <div className="flex flex-col items-center text-center px-2">
-                    <div
-                      className="w-4 h-4 rounded-full border-2 relative z-10 mb-3"
-                      style={{
-                        background: m.dot,
-                        borderColor: m.dot,
-                        boxShadow: `0 0 8px ${m.dot}66`,
-                      }}
-                    />
-                    <span
-                      className="text-[9px] font-bold tracking-[0.12em] uppercase mb-1 block"
-                      style={{ color: "rgba(255,255,255,0.35)", fontFamily: "var(--font-body)" }}
-                    >
-                      {m.label}
-                    </span>
-                    <span
-                      className="text-xs font-semibold leading-tight"
-                      style={{ color: "rgba(255,255,255,0.8)", fontFamily: "var(--font-body)" }}
-                    >
-                      {m.event}
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Mobile timeline */}
-            <div className="md:hidden space-y-4">
-              {milestones.map((m, i) => (
-                <div key={i} className="flex items-center gap-4">
-                  <div
-                    className="w-3 h-3 rounded-full flex-shrink-0"
-                    style={{ background: m.dot, boxShadow: `0 0 6px ${m.dot}66` }}
-                  />
-                  <div>
-                    <span
-                      className="text-[9px] font-bold tracking-[0.12em] uppercase"
-                      style={{ color: "rgba(255,255,255,0.35)", fontFamily: "var(--font-body)" }}
-                    >
-                      {m.label}
-                    </span>
-                    <span
-                      className="text-xs font-semibold ml-3"
-                      style={{ color: "rgba(255,255,255,0.8)", fontFamily: "var(--font-body)" }}
-                    >
-                      {m.event}
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </FadeIn>
       </div>
     </section>
   );

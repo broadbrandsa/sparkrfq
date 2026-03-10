@@ -355,14 +355,14 @@ export function ChallengesSection() {
               </div>
               <div className="md:col-span-2 space-y-4">
                 <p
-                  className="text-sm leading-relaxed"
+                  className="text-base leading-relaxed"
                   style={{ color: "rgba(255,255,255,0.72)", fontFamily: "var(--font-body)" }}
                 >
                   The good news is that together we have already built many of the key components
                   required for a high-performance enrolment growth system.
                 </p>
                 <p
-                  className="text-sm leading-relaxed"
+                  className="text-base leading-relaxed"
                   style={{ color: "rgba(255,255,255,0.55)", fontFamily: "var(--font-body)" }}
                 >
                   We have strong demand generation channels, a CRM capable of tracking the full
@@ -370,7 +370,7 @@ export function ChallengesSection() {
                   performance.
                 </p>
                 <p
-                  className="text-sm leading-relaxed"
+                  className="text-base leading-relaxed"
                   style={{ color: "rgba(255,255,255,0.55)", fontFamily: "var(--font-body)" }}
                 >
                   The next step is to connect these components more tightly, prioritise lead quality,
@@ -382,7 +382,7 @@ export function ChallengesSection() {
                   long-term relationships with families already within the SPARK network.
                 </p>
                 <p
-                  className="text-sm leading-relaxed"
+                  className="text-base leading-relaxed"
                   style={{ color: "rgba(255,255,255,0.55)", fontFamily: "var(--font-body)" }}
                 >
                   By combining acquisition, conversion and retention into a unified system, SPARK can
@@ -390,7 +390,7 @@ export function ChallengesSection() {
                   loyalty.
                 </p>
                 <p
-                  className="text-sm leading-relaxed"
+                  className="text-base leading-relaxed"
                   style={{ color: "rgba(255,255,255,0.45)", fontFamily: "var(--font-body)" }}
                 >
                   This proposal outlines how we can build on the progress already achieved together

@@ -7,8 +7,9 @@ const team = [
   { name: "Vincent Maher", role: "CEO", email: "mikee@dsg.co.za", image: "/Team/V Maher.jpeg" },
   { name: "Mike Elmira", role: "Head of Agency", email: "mikee@dsg.co.za", image: "/Team/mike Elmira.jpeg" },
   { name: "Sabata Mofokeng", role: "Technology", email: "Mofokengs@broadbrand.co.za", image: "/Team/Sabata Mofokeng.jpeg" },
+  { name: "Tapuwa Kabwato", role: "Technology", email: "tapuwak@dsg.co.za", image: "/Team/Tapuwa Kabwato.jpeg" },
   { name: "Nicole Proxenos", role: "Design", email: "Nicolep@broadbrand.ai", image: "/Team/Nicole Proxenos.jpeg" },
-  { name: "Georgina Moolman", role: "Project Manager", email: "georginam@dsg.co.za", image: "/Team/georgina moolman.jpg" },
+  { name: "Georgina Moolman", role: "Project Manager", email: "georginam@dsg.co.za", image: "/Team/georgina moolman.jpeg" },
 ];
 
 const martechPartners = [
@@ -174,9 +175,9 @@ export default function AboutPage() {
                 lineHeight: 1,
               }}
             >
-              WHO WILL
+              Meet
               <br />
-              <span style={{ color: "rgba(43,4,48,0.2)" }}>RUN THIS</span>
+              <span style={{ color: "rgba(43,4,48,0.2)" }}>the team</span>
             </h2>
           </FadeIn>
 
@@ -242,9 +243,9 @@ export default function AboutPage() {
                   lineHeight: 1,
                 }}
               >
-                THE DSG
+                The DSG
                 <br />
-                <span style={{ color: "rgba(255,255,255,0.2)" }}>ECOSYSTEM</span>
+                <span style={{ color: "rgba(255,255,255,0.2)" }}>ecosystem</span>
               </h3>
               <p
                 className="text-base max-w-lg leading-relaxed mb-10"
@@ -397,9 +398,9 @@ export default function AboutPage() {
                 lineHeight: 1,
               }}
             >
-              BRANDS THAT
+              Brands that
               <br />
-              <span style={{ color: "rgba(43,4,48,0.35)" }}>TRUST US</span>
+              <span style={{ color: "rgba(43,4,48,0.2)" }}>trust us</span>
             </h2>
             <p
               className="text-base max-w-md leading-relaxed mb-14"

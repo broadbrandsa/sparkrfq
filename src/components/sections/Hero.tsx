@@ -8,7 +8,6 @@ const stats = [
   { value: "DSG", label: "Parent Company" },
   { value: "Level 2", label: "B-BBEE Status" },
   { value: "Full Service", label: "Digital Capability" },
-  { value: "SA-First", label: "Market Approach" },
 ];
 
 export function Hero() {
@@ -77,7 +76,7 @@ export function Hero() {
               letterSpacing: "-0.04em",
             }}
           >
-            SPARK
+            SPARKING
           </h1>
         </div>
 
@@ -92,7 +91,7 @@ export function Hero() {
               letterSpacing: "-0.04em",
             }}
           >
-            SCHOOLS 2026
+            2026
           </p>
         </div>
 

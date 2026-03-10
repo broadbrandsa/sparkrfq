@@ -59,7 +59,7 @@ export function Nav() {
 
         {/* Logo */}
         <a href="/" className="flex items-center gap-0 flex-shrink-0">
-          <div className="relative w-56 h-16 pb-1">
+          <div className="relative w-44 h-16 pb-1">
             <Image
               src="/Logos/SPARK.webp"
               alt="SPARK Schools"
@@ -67,7 +67,7 @@ export function Nav() {
               className="object-contain object-left"
             />
           </div>
-          <div className="relative w-36 h-8 -ml-2">
+          <div className="relative w-36 h-8 -ml-6">
             <Image
               src="/Logos/Broadbrand.png"
               alt="Broadbrand"
@@ -148,6 +148,15 @@ export function Nav() {
 
         {/* Right CTA */}
         <div className="hidden lg:flex items-center gap-3">
+          <button
+            onClick={() => { localStorage.removeItem("bb_spark_2026_unlocked"); window.location.reload(); }}
+            className="inline-flex items-center gap-1.5 text-xs font-semibold tracking-wider uppercase px-4 py-2.5 rounded-full transition-all duration-300"
+            style={{ border: "1px solid rgba(255,255,255,0.15)", color: "rgba(255,255,255,0.45)" }}
+            onMouseEnter={(e) => { e.currentTarget.style.color = "rgba(255,255,255,0.8)"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.3)"; }}
+            onMouseLeave={(e) => { e.currentTarget.style.color = "rgba(255,255,255,0.45)"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)"; }}
+          >
+            ⊠ Hide Report
+          </button>
           <a
             href="mailto:mikee@dsg.co.za"
             className="inline-flex items-center gap-2 text-xs font-bold tracking-widest uppercase px-5 py-2.5 rounded-full transition-all duration-300"
@@ -216,6 +225,13 @@ export function Nav() {
           >
             ↗ 2025 Marketing Report
           </a>
+          <button
+            onClick={() => { localStorage.removeItem("bb_spark_2026_unlocked"); window.location.reload(); }}
+            className="block w-full text-sm font-semibold text-center py-3 rounded-full mt-2 transition-all duration-200"
+            style={{ border: "1px solid rgba(255,255,255,0.2)", color: "rgba(255,255,255,0.6)" }}
+          >
+            ⊠ Hide Report
+          </button>
           <a
             href="mailto:mikee@dsg.co.za"
             className="block text-sm font-bold text-center py-3 rounded-full mt-2"

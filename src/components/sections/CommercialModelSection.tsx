@@ -7,6 +7,11 @@ const lineItems = [
     cost: "R18,000",
   },
   {
+    category: "App Development & App Roadmap",
+    description: "Development, maintenance and strategic roadmap planning for the SPARK mobile application",
+    cost: "R19,500",
+  },
+  {
     category: "Content Creation",
     description: "Creative production including advertising assets, campaign messaging, landing page copy and creative testing",
     cost: "R13,000",
@@ -247,7 +252,7 @@ export function CommercialModelSection() {
                       className="text-sm font-bold"
                       style={{ color: "#ff4800", fontFamily: "var(--font-heading)", letterSpacing: "-0.01em" }}
                     >
-                      R73,440
+                      R92,940
                     </span>
                   </div>
                 </div>
