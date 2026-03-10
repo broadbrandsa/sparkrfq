@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins, Sofia_Sans } from "next/font/google";
 import "./globals.css";
+import { LockScreen } from "@/components/LockScreen";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -31,7 +32,7 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} ${sofiaSans.variable} antialiased`}
       >
-        {children}
+        <LockScreen>{children}</LockScreen>
       </body>
     </html>
   );
