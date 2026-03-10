@@ -153,6 +153,27 @@ const platforms = [
       "Improves engagement between parents and the SPARK network",
     ],
   },
+  {
+    id: "budget-allocation",
+    num: "08",
+    title: "Enrolment Budget Allocation Platform",
+    subtitle: "Marketing demand allocation platform",
+    accent: "#d97706",
+    bgAlpha: "rgba(217,119,6,0.06)",
+    borderAlpha: "rgba(217,119,6,0.2)",
+    icon: "◆",
+    body: [
+      "While most marketing platforms optimise campaigns around clicks, impressions or cost per lead, school networks ultimately need to optimise for a different outcome: filling available seats across grades and campuses.",
+      "The Enrolment Budget Allocation Platform connects marketing performance directly to school demand by linking campaign data with the number of seats remaining in each grade.",
+      "Instead of distributing advertising budget evenly, the system forecasts the number of leads and enrolments required per school and automatically recommends how marketing budget should be allocated to meet those targets. This transforms marketing from a lead-generation exercise into a controlled enrolment pipeline that directs advertising investment toward the grades and campuses that need students most.",
+    ],
+    impact: [
+      "Aligns marketing investment with actual seat demand",
+      "Forecasts expected leads and enrolments before budget is deployed",
+      "Directs spend toward schools and grades that need students most",
+      "Transforms campaign optimisation from CPL to enrolment outcomes",
+    ],
+  },
 ];
 
 export function NextGenPlatformsSection() {

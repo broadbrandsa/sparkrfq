@@ -250,7 +250,7 @@ export function CommercialModelSection() {
                   <div className="px-4 py-4 text-right">
                     <span
                       className="text-sm font-bold"
-                      style={{ color: "#ff4800", fontFamily: "var(--font-heading)", letterSpacing: "-0.01em" }}
+                      style={{ color: "#ffffff", fontFamily: "var(--font-heading)", letterSpacing: "-0.01em" }}
                     >
                       R92,940
                     </span>
